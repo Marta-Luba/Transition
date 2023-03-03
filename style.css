@@ -1,0 +1,20 @@
+body {
+  margin: 100px;
+}
+
+.box {
+  background: #3dccc7;
+  width: 200px;
+  height: 200px;
+  /* transition-duration: 0.4s;
+  transition-property: background, transform;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s; */
+
+  transition: 0.4s background ease-out, 0.5s transform ease-in 1s;
+}
+
+.box:hover {
+  background: #ff6b6b;
+  transform: rotate(45deg);
+}
