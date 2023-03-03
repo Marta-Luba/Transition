@@ -11,7 +11,7 @@ body {
   transition-timing-function: ease-in-out;
   transition-delay: 0.1s; */
 
-  transition: 0.4s background ease-out, 0.5s transform ease-in 1s;
+  transition: 0.4s background ease-out, 0.5s transform ease-in 0.1s;
 }
 
 .box:hover {
